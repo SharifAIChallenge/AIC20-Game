@@ -1,0 +1,479 @@
+{
+	"gameConstants": {
+		"maxAP": 10,
+		"maxTurns": 100,
+		"turnTimeout": 400,
+		"pickTimeout": 400,
+		"turnsToUpgrade": 23,
+		"turnsToSpell": 4,
+		"damageUpgradeAddition": 5,
+		"rangeUpgradeAddition": 1,
+		"deckSize": 9,
+		"handSize": 5
+	},
+	"map": {
+		"rows": 20,
+		"cols": 20,
+		"kings": [
+			{
+        		"playerId": 0,
+        		"center": {
+        			"row": 2,
+					"col": 2
+        		},
+        		"hp": 90,
+        		"attack": 10,
+        		"range": 4
+    		},
+    		{
+        		"playerId": 1,
+        		"center": {
+        			"row": 17,
+					"col": 17
+        		},
+        		"hp": 90,
+        		"attack": 10,
+        		"range": 4
+    		},
+			{
+        		"playerId": 2,
+        		"center": {
+        			"row": 2,
+					"col": 17
+        		},
+        		"hp": 90,
+        		"attack": 10,
+        		"range": 4
+    		},
+    		{
+        		"playerId": 3,
+        		"center": {
+        			"row": 17,
+					"col": 2
+        		},
+        		"hp": 90,
+        		"attack": 10,
+        		"range": 4
+    		}
+		],
+		"paths": [
+		{
+			"cells": [{"col":2,"row":2},{"col":3,"row":2},{"col":4,"row":2},{"col":5,"row":2},{"col":6,"row":2},{"col":7,"row":2},{"col":8,"row":2},{"col":9,"row":2},{"col":10,"row":2},{"col":11,"row":2},{"col":12,"row":2},{"col":13,"row":2},{"col":14,"row":2},{"col":15,"row":2},{"col":16,"row":2},{"col":17,"row":2}],
+			"id": 0
+		},
+		{
+			"cells": [{"col":2,"row":17},{"col":3,"row":17},{"col":4,"row":17},{"col":5,"row":17},{"col":6,"row":17},{"col":7,"row":17},{"col":8,"row":17},{"col":9,"row":17},{"col":10,"row":17},{"col":11,"row":17},{"col":12,"row":17},{"col":13,"row":17},{"col":14,"row":17},{"col":15,"row":17},{"col":16,"row":17},{"col":17,"row":17}],
+			"id": 1
+		},
+		{
+			"cells": [{"col":17,"row":2},{"col":17,"row":3},{"col":17,"row":4},{"col":17,"row":5},{"col":17,"row":6},{"col":17,"row":7},{"col":17,"row":8},{"col":17,"row":9},{"col":16,"row":9},{"col":15,"row":9},{"col":14,"row":9},{"col":13,"row":9},{"col":12,"row":9},{"col":11,"row":9},{"col":10,"row":9},{"col":9,"row":9},{"col":8,"row":9},{"col":7,"row":9},{"col":6,"row":9},{"col":5,"row":9},{"col":4,"row":9},{"col":3,"row":9},{"col":2,"row":9},{"col":2,"row":10},{"col":2,"row":11},{"col":2,"row":12},{"col":2,"row":13},{"col":2,"row":14},{"col":2,"row":15},{"col":2,"row":16},{"col":2,"row":17}],
+			"id": 2
+		},
+		{
+			"cells": [{
+				"col":2,
+				"row":2
+			},
+			{
+				"col":2,
+				"row":3
+			},
+			{
+				"col":2,
+				"row":4
+			},
+			{
+				"col":2,
+				"row":5
+			},
+			{
+				"col":2,
+				"row":6
+			},
+			{
+				"col":2,
+				"row":7
+			},
+			{
+				"col":2,
+				"row":8
+			},
+			{
+				"col":2,
+				"row":9
+			},
+			{
+				"col":3,
+				"row":9
+			},
+			{
+				"col":4,
+				"row":9
+			},
+			{
+				"col":5,
+				"row":9
+			},
+			{
+				"col":6,
+				"row":9
+			},
+			{
+				"col":7,
+				"row":9
+			},
+			{
+				"col":8,
+				"row":9
+			},
+			{
+				"col":9,
+				"row":9
+			},
+			{
+				"col":10,
+				"row":9
+			},
+			{
+				"col":11,
+				"row":9
+			},
+			{
+				"col":12,
+				"row":9
+			},
+			{
+				"col":13,
+				"row":9
+			},
+			{
+				"col":14,
+				"row":9
+			},
+			{
+				"col":15,
+				"row":9
+			},
+			{
+				"col":16,
+				"row":9
+			},
+			{
+				"col":17,
+				"row":9
+			},
+			{
+				"col":17,
+				"row":10
+			},
+			{
+				"col":17,
+				"row":11
+			},
+			{
+				"col":17,
+				"row":12
+			},
+			{
+				"col":17,
+				"row":13
+			},
+			{
+				"col":17,
+				"row":14
+			},
+			{
+				"col":17,
+				"row":15
+			},
+			{
+				"col":17,
+				"row":16
+			},
+			{
+				"col":17,
+				"row":17
+			}
+		],
+			"id": 3
+		},
+		{
+			"cells": [
+			{
+				"col":17,
+				"row":2
+			},
+			{
+				"col":16,
+				"row":2
+			},
+			{
+				"col":15,
+				"row":2
+			},
+			{
+				"col":14,
+				"row":2
+			},
+			{
+				"col":13,
+				"row":2
+			},
+			{
+				"col":12,
+				"row":2
+			},
+			{
+				"col":11,
+				"row":2
+			},
+			{
+				"col":10,
+				"row":2
+			},
+			{
+				"col":10,
+				"row":3
+			},
+			{
+				"col":10,
+				"row":4
+			},
+			{
+				"col":10,
+				"row":5
+			},
+			{
+				"col":10,
+				"row":6
+			},
+			{
+				"col":10,
+				"row":7
+			},
+			{
+				"col":10,
+				"row":8
+			},
+			{
+				"col":10,
+				"row":9
+			},
+			{
+				"col":10,
+				"row":10
+			},
+			{
+				"col":10,
+				"row":11
+			},
+			{
+				"col":10,
+				"row":12
+			},
+			{
+				"col":10,
+				"row":13
+			},
+			{
+				"col":10,
+				"row":14
+			},
+			{
+				"col":10,
+				"row":15
+			},
+			{
+				"col":10,
+				"row":16
+			},
+			{
+				"col":10,
+				"row":17
+			},
+			{
+				"col":9,
+				"row":17
+			},
+			{
+				"col":8,
+				"row":17
+			},
+			{
+				"col":7,
+				"row":17
+			},
+			{
+				"col":6,
+				"row":17
+			},
+			{
+				"col":5,
+				"row":17
+			},
+			{
+				"col":4,
+				"row":17
+			},
+			{
+				"col":3,
+				"row":17
+			},
+			{
+				"col":2,
+				"row":17
+			}
+		],
+			"id": 4
+		}
+	]
+	},
+	"baseUnits": [
+			{
+				"typeId": 0,
+				"maxHP": 15,
+				"baseAttack": 15,
+				"baseRange": 4,
+				"target": "BOTH"	,
+				"isFlying": false,
+				"isMultiple": true,
+				"ap": 4
+			},
+			{
+				"typeId": 1,
+				"maxHP": 30,
+				"baseAttack": 5,
+				"baseRange": 4,
+				"target": "GROUND",
+				"isFlying": false,
+				"isMultiple": true,
+				"ap": 3
+			},
+			{
+				"typeId": 2,
+				"maxHP": 20,
+				"baseAttack": 10,
+				"baseRange": 4,
+				"target": "AIR",
+				"isFlying": false,
+				"isMultiple": true,
+				"ap": 4
+			},
+			{
+				"typeId": 3,
+				"maxHP": 25,
+				"baseAttack": 12,
+				"baseRange": 1,
+				"target": "GROUND",
+				"isFlying": false,
+				"isMultiple": false,
+				"ap": 6
+			},
+			{
+				"typeId": 4,
+				"maxHP": 50,
+				"baseAttack": 10,
+				"baseRange": 1,
+				"target": "GROUND",
+				"isFlying": false,
+				"isMultiple": true,
+				"ap": 10
+			},
+			{
+				"typeId": 5,
+				"maxHP": 30,
+				"baseAttack": 5,
+				"baseRange": 1,
+				"target": "AIR",
+				"isFlying": true,
+				"isMultiple": false,
+				"ap": 3
+			},
+			{
+				"typeId": 6,
+				"maxHP": 15,
+				"baseAttack": 5,
+				"baseRange": 4,
+				"target": "BOTH",
+				"isFlying": true,
+				"isMultiple": true,
+				"ap": 2
+			},
+			{
+				"typeId": 7,
+				"maxHP": 30,
+				"baseAttack": 8,
+				"baseRange": 2,
+				"target": "GROUND",
+				"isFlying": false,
+				"isMultiple": true,
+				"ap": 5
+			},
+			{
+				"typeId": 8,
+				"maxHP": 20,
+				"baseAttack": 15,
+				"baseRange": 2,
+				"target": "BOTH",
+				"isFlying": true,
+				"isMultiple": true,
+				"ap": 6
+			}
+	],
+	"spells": [
+			{
+				"type": "HASTE",
+				"typeId": 0,
+				"priority": 3,
+				"duration": 2,
+				"range": 1,
+				"power": 1,
+				"target": "ALLIED"
+			},
+			{
+				"type": "HP",
+				"typeId": 1,
+				"priority": 0,
+				"duration": 1,
+				"range": 1,
+				"power": -3,
+				"target": "ENEMY"
+			},
+			{
+				"type": "HP",
+				"typeId": 2,
+				"priority": 0,
+				"duration": 1,
+				"range": 1,
+				"power": 3,
+				"target": "ALLIED"
+			},
+			{
+				"type": "TELE",
+				"typeId": 3,
+				"priority": 2,
+				"duration": 1,
+				"range": null,
+				"power": null,
+				"target": "SELF"
+			},
+			{
+				"type": "DUPLICATE",
+				"typeId": 4,
+				"priority": 4,
+				"duration": 3,
+				"range": 0,
+				"power": 2,
+				"target": "ALLIED"
+			},
+			{
+				"type": "HP",
+				"typeId": 5,
+				"priority": 0,
+				"duration": 3,
+				"range": 1,
+				"power": -1,
+				"target": "ENEMY"
+			}
+	]
+}
