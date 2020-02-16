@@ -1,0 +1,141 @@
+.positioned {
+    position: relative;
+}
+
+table {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+td {
+    padding: 0;
+    border: 1px solid black;
+}
+
+td {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+.path-cell {
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.path-0 {
+    background-color: #607D8B;
+}
+
+.path-1 {
+    background-color: #8BC34A;
+}
+
+.path-2 {
+    background-color: #795548;
+}
+
+.path-3 {
+    background-color: #FF5722;
+}
+
+.path-4 {
+    background-color: #009688;
+}
+
+.path-5 {
+    background-color: #673AB7;
+}
+
+.path-6 {
+    background-color: #E91E63;
+}
+
+td>div {
+    width: 100%;
+    height: 100%;
+}
+
+#main-table td>div>div {
+    opacity: 0.7;
+    box-sizing: border-box;
+}
+
+#main-table td>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#main-table td>div.king>div {
+    width: 100%;
+    height: 100%;
+}
+
+#main-table td>div.units {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+#main-table td>div>div {
+    vertical-align: middle;
+    text-align: center;
+    user-select: none;
+}
+
+#main-table td .player-0 {
+    background-color: #2196F3;
+}
+
+#main-table td .player-1 {
+    background-color: #F44336;
+    color: white;
+}
+
+#main-table td .player-2 {
+    background-color: #4CAF50;
+}
+
+#main-table td .player-3 {
+    background-color: #FFEB3B;
+}
+
+.spell {
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 2px;
+}
+
+.spell-0 {
+    border-color: #651FFF;
+}
+
+.spell-1 {
+    border-color: #B2FF59;
+}
+
+.spell-2 {
+    border-color: #795548;
+}
+
+.spell-3 {
+    border-color: #64FFDA;
+}
+
+.spell-4 {
+    border-color: #FFAB00;
+}
+
+.spell-5 {
+    border-color: #FFFFFF;
+}

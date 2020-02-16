@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <script src="displayBuilder.js"></script>
+
+    <input id="file-input" type="file" onchange="handleFiles(this.files)">
+
+    <div>
+        <button onclick="showPreviousTurn()">Previous Turn</button>
+        <span id="turn-num"></span>
+        <button onclick="showNextTurn()">Next Turn</button>
+    </div>
+
+    <div style="position: absolute; right: 0; top: 0;">
+        <div class="spell spell-0">Haste</div>
+        <div class="spell spell-1">Damage</div>
+        <div class="spell spell-2">Heal</div>
+        <div class="spell spell-3">Teleport</div>
+        <div class="spell spell-4">Duplicate</div>
+        <div class="spell spell-5">Poison</div>
+        <div id="cell-location"></div>
+    </div>
+
+    <div class="positioned">
+
+        <table id="path-table">
+
+        </table>
+
+        <table id="main-table">
+
+        </table>
+
+    </div>
+</body>
+
+</html>
