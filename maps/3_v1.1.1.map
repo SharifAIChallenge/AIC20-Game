@@ -5,11 +5,12 @@
 		"turnTimeout": 400,
 		"pickTimeout": 400,
 		"turnsToUpgrade": 23,
-		"turnsToSpell": 4,
-		"damageUpgradeAddition": 5,
+		"turnsToSpell": 10,
+		"damageUpgradeAddition": 3,
 		"rangeUpgradeAddition": 1,
 		"deckSize": 9,
-		"handSize": 5
+		"handSize": 5,
+		"apAddition": 2
 	},
 	"map": {
 		"rows": 20,
@@ -23,7 +24,7 @@
         		},
         		"hp": 90,
         		"attack": 10,
-        		"range": 4
+        		"range": 6
     		},
     		{
         		"playerId": 1,
@@ -33,7 +34,7 @@
         		},
         		"hp": 90,
         		"attack": 10,
-        		"range": 4
+        		"range": 6
     		},
 			{
         		"playerId": 2,
@@ -43,7 +44,7 @@
         		},
         		"hp": 90,
         		"attack": 10,
-        		"range": 4
+        		"range": 6
     		},
     		{
         		"playerId": 3,
@@ -53,7 +54,7 @@
         		},
         		"hp": 90,
         		"attack": 10,
-        		"range": 4
+        		"range": 6
     		}
 		],
 		"paths": [
@@ -396,7 +397,7 @@
 				"baseAttack": 8,
 				"baseRange": 2,
 				"target": "GROUND",
-				"isFlying": false,
+				"isFlying": true,
 				"isMultiple": true,
 				"ap": 5
 			},
@@ -424,16 +425,16 @@
 			{
 				"type": "HP",
 				"typeId": 1,
-				"priority": 1,
+				"priority": 0,
 				"duration": 1,
 				"range": 1,
-				"power": -3,
+				"power": -4,
 				"target": "ENEMY"
 			},
 			{
 				"type": "HP",
 				"typeId": 2,
-				"priority": 0,
+				"priority": 1,
 				"duration": 1,
 				"range": 1,
 				"power": 3,
@@ -460,10 +461,10 @@
 			{
 				"type": "HP",
 				"typeId": 5,
-				"priority": 1,
+				"priority": 0,
 				"duration": 3,
 				"range": 1,
-				"power": -1,
+				"power": -2,
 				"target": "ENEMY"
 			}
 	]
