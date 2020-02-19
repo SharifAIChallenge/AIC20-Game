@@ -397,7 +397,7 @@
 				"baseAttack": 8,
 				"baseRange": 2,
 				"target": "GROUND",
-				"isFlying": false,
+				"isFlying": true,
 				"isMultiple": true,
 				"ap": 5
 			},
