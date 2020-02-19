@@ -337,7 +337,7 @@
 				"baseRange": 4,
 				"target": "BOTH"	,
 				"isFlying": false,
-				"isMultiple": true,
+				"isMultiple": false,
 				"ap": 4
 			},
 			{
@@ -397,7 +397,7 @@
 				"baseRange": 4,
 				"target": "BOTH",
 				"isFlying": true,
-				"isMultiple": true,
+				"isMultiple": false,
 				"ap": 2
 			},
 			{
@@ -417,7 +417,7 @@
 				"baseRange": 2,
 				"target": "BOTH",
 				"isFlying": true,
-				"isMultiple": true,
+				"isMultiple": false,
 				"ap": 6
 			}
 	],

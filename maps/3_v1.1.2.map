@@ -13,14 +13,14 @@
 		"apAddition": 2
 	},
 	"map": {
-		"rows": 40,
-		"cols": 20,
+		"rows": 20,
+		"cols": 10,
 		"kings": [
 			{
         		"playerId": 0,
         		"center": {
-        			"row": 3,
-					"col": 16
+        			"row": 2,
+					"col": 2
         		},
         		"hp": 90,
         		"attack": 10,
@@ -29,8 +29,8 @@
     		{
         		"playerId": 1,
         		"center": {
-        			"row": 36,
-					"col": 3
+        			"row": 17,
+					"col": 7
         		},
         		"hp": 90,
         		"attack": 10,
@@ -39,8 +39,8 @@
 			{
         		"playerId": 2,
         		"center": {
-        			"row": 3,
-					"col": 3
+        			"row": 2,
+					"col": 7
         		},
         		"hp": 90,
         		"attack": 10,
@@ -49,8 +49,8 @@
     		{
         		"playerId": 3,
         		"center": {
-        			"row": 36,
-					"col": 16
+        			"row": 17,
+					"col": 2
         		},
         		"hp": 90,
         		"attack": 10,
@@ -61,192 +61,68 @@
 		{
 			"cells": [
 				{
-					"col":16,
+					"col":7,
+					"row":2
+				},
+				{
+					"col":7,
 					"row":3
 				},
 				{
-					"col":16,
+					"col":7,
 					"row":4
 				},
 				{
-					"col":16,
+					"col":7,
 					"row":5
 				},
 				{
-					"col":15,
-					"row":5
-				},
-				{
-					"col":15,
+					"col":7,
 					"row":6
 				},
 				{
-					"col":15,
+					"col":7,
 					"row":7
 				},
 				{
-					"col":14,
-					"row":7
-				},
-				{
-					"col":14,
+					"col":7,
 					"row":8
 				},
 				{
-					"col":14,
+					"col":7,
 					"row":9
 				},
 				{
-					"col":13,
-					"row":9
-				},
-				{
-					"col":13,
+					"col":7,
 					"row":10
 				},
 				{
-					"col":13,
+					"col":7,
 					"row":11
 				},
 				{
-					"col":12,
-					"row":11
-				},
-				{
-					"col":12,
+					"col":7,
 					"row":12
 				},
 				{
-					"col":12,
+					"col":7,
 					"row":13
 				},
 				{
-					"col":11,
-					"row":13
-				},
-				{
-					"col":11,
+					"col":7,
 					"row":14
 				},
 				{
-					"col":11,
+					"col":7,
 					"row":15
 				},
 				{
-					"col":10,
-					"row":15
-				},
-				{
-					"col":10,
+					"col":7,
 					"row":16
 				},
 				{
-					"col":10,
+					"col":7,
 					"row":17
-				},
-				{
-					"col":9,
-					"row":17
-				},
-				{
-					"col":9,
-					"row":18
-				},
-				{
-					"col":9,
-					"row":19
-				},
-				{
-					"col":8,
-					"row":19
-				},
-				{
-					"col":8,
-					"row":20
-				},
-				{
-					"col":8,
-					"row":21
-				},
-				{
-					"col":7,
-					"row":21
-				},
-				{
-					"col":7,
-					"row":22
-				},
-				{
-					"col":7,
-					"row":23
-				},
-				{
-					"col":6,
-					"row":23
-				},
-				{
-					"col":6,
-					"row":24
-				},
-				{
-					"col":6,
-					"row":25
-				},
-				{
-					"col":5,
-					"row":25
-				},
-				{
-					"col":5,
-					"row":26
-				},
-				{
-					"col":5,
-					"row":27
-				},
-				{
-					"col":4,
-					"row":27
-				},
-				{
-					"col":4,
-					"row":28
-				},
-				{
-					"col":4,
-					"row":29
-				},
-				{
-					"col":3,
-					"row":29
-				},
-				{
-					"col":3,
-					"row":30
-				},
-				{
-					"col":3,
-					"row":31
-				},
-				{
-					"col":3,
-					"row":32
-				},
-				{
-					"col":3,
-					"row":33
-				},
-				{
-					"col":3,
-					"row":34
-				},
-				{
-					"col":3,
-					"row":35
-				},
-				{
-					"col":3,
-					"row":36
 				}
 			],
 			"id": 0
@@ -254,117 +130,135 @@
 		{
 			"cells": [
 				{
-					"col":16,
-					"row":36
+					"col":2,
+					"row":2
 				},
 				{
-					"col":16,
-					"row":35
+					"col":2,
+					"row":3
 				},
 				{
-					"col":16,
-					"row":34
+					"col":2,
+					"row":4
 				},
 				{
-					"col":15,
-					"row":34
+					"col":2,
+					"row":5
 				},
 				{
-					"col":15,
-					"row":33
+					"col":2,
+					"row":6
 				},
 				{
-					"col":15,
-					"row":32
+					"col":2,
+					"row":7
 				},
 				{
-					"col":14,
-					"row":32
+					"col":2,
+					"row":8
 				},
 				{
-					"col":14,
-					"row":31
+					"col":2,
+					"row":9
 				},
 				{
-					"col":14,
-					"row":30
+					"col":2,
+					"row":10
 				},
 				{
-					"col":13,
-					"row":30
+					"col":2,
+					"row":11
 				},
 				{
-					"col":13,
-					"row":29
+					"col":2,
+					"row":12
 				},
 				{
-					"col":13,
-					"row":28
+					"col":2,
+					"row":13
 				},
 				{
-					"col":12,
-					"row":28
+					"col":2,
+					"row":14
 				},
 				{
-					"col":12,
-					"row":27
+					"col":2,
+					"row":15
 				},
 				{
-					"col":12,
-					"row":26
+					"col":2,
+					"row":16
 				},
 				{
-					"col":11,
-					"row":26
+					"col":2,
+					"row":17
+				}
+			],
+			"id": 1
+		},
+		{
+			"cells": [
+				{
+					"col":2,
+					"row":2
 				},
 				{
-					"col":11,
-					"row":25
+					"col":2,
+					"row":3
 				},
 				{
-					"col":11,
-					"row":24
+					"col":2,
+					"row":4
 				},
 				{
-					"col":10,
-					"row":24
+					"col":2,
+					"row":5
 				},
 				{
-					"col":10,
-					"row":23
+					"col":2,
+					"row":6
 				},
 				{
-					"col":10,
-					"row":22
+					"col":3,
+					"row":6
 				},
 				{
-					"col":9,
-					"row":22
+					"col":4,
+					"row":6
 				},
 				{
-					"col":9,
-					"row":21
+					"col":5,
+					"row":6
 				},
 				{
-					"col":9,
-					"row":20
-				},
-				{
-					"col":8,
-					"row":20
-				},
-				{
-					"col":8,
-					"row":19
-				},
-				{
-					"col":8,
-					"row":18
+					"col":6,
+					"row":6
 				},
 				{
 					"col":7,
-					"row":18
+					"row":6
 				},
+				{
+					"col":7,
+					"row":5
+				},
+				{
+					"col":7,
+					"row":4
+				},
+				{
+					"col":7,
+					"row":3
+				},
+				{
+					"col":7,
+					"row":2
+				}
+			],
+			"id": 2
+		},
+		{
+			"cells": [
 				{
 					"col":7,
 					"row":17
@@ -374,197 +268,55 @@
 					"row":16
 				},
 				{
-					"col":6,
-					"row":16
-				},
-				{
-					"col":6,
+					"col":7,
 					"row":15
 				},
 				{
-					"col":6,
+					"col":7,
 					"row":14
 				},
 				{
-					"col":5,
-					"row":14
+					"col":7,
+					"row":13
+				},
+				{
+					"col":6,
+					"row":13
 				},
 				{
 					"col":5,
 					"row":13
 				},
 				{
-					"col":5,
-					"row":12
-				},
-				{
 					"col":4,
-					"row":12
-				},
-				{
-					"col":4,
-					"row":11
-				},
-				{
-					"col":4,
-					"row":10
+					"row":13
 				},
 				{
 					"col":3,
-					"row":10
+					"row":13
 				},
 				{
-					"col":3,
-					"row":9
+					"col":2,
+					"row":13
 				},
 				{
-					"col":3,
-					"row":8
+					"col":2,
+					"row":14
 				},
 				{
-					"col":3,
-					"row":7
+					"col":2,
+					"row":15
 				},
 				{
-					"col":3,
-					"row":6
+					"col":2,
+					"row":16
 				},
 				{
-					"col":3,
-					"row":5
-				},
-				{
-					"col":3,
-					"row":4
-				},
-				{
-					"col":3,
-					"row":3
+					"col":2,
+					"row":17
 				}
 			],
-			"id": 1
-		},
-		{
-			"cells": [
-				{
-					"col":3,
-					"row":3
-				},
-				{
-					"col":4,
-					"row":3
-				},
-				{
-					"col":5,
-					"row":3
-				},
-				{
-					"col":6,
-					"row":3
-				},
-				{
-					"col":7,
-					"row":3
-				},
-				{
-					"col":8,
-					"row":3
-				},
-				{
-					"col":9,
-					"row":3
-				},
-				{
-					"col":10,
-					"row":3
-				},
-				{
-					"col":11,
-					"row":3
-				},
-				{
-					"col":12,
-					"row":3
-				},
-				{
-					"col":13,
-					"row":3
-				},
-				{
-					"col":14,
-					"row":3
-				},
-				{
-					"col":15,
-					"row":3
-				},
-				{
-					"col":16,
-					"row":3
-				}
-			],
-			"id": 2
-		},
-		{
-			"cells": [
-				{
-					"col":3,
-					"row":36
-				},
-				{
-					"col":4,
-					"row":36
-				},
-				{
-					"col":5,
-					"row":36
-				},
-				{
-					"col":6,
-					"row":36
-				},
-				{
-					"col":7,
-					"row":36
-				},
-				{
-					"col":8,
-					"row":36
-				},
-				{
-					"col":9,
-					"row":36
-				},
-				{
-					"col":10,
-					"row":36
-				},
-				{
-					"col":11,
-					"row":36
-				},
-				{
-					"col":12,
-					"row":36
-				},
-				{
-					"col":13,
-					"row":36
-				},
-				{
-					"col":14,
-					"row":36
-				},
-				{
-					"col":15,
-					"row":36
-				},
-				{
-					"col":16,
-					"row":36
-				}
-			],
-			"id": 3
+			"id": 4
 		}
 	]
 	},
@@ -576,7 +328,7 @@
 				"baseRange": 4,
 				"target": "BOTH"	,
 				"isFlying": false,
-				"isMultiple": true,
+				"isMultiple": false,
 				"ap": 4
 			},
 			{
@@ -636,7 +388,7 @@
 				"baseRange": 4,
 				"target": "BOTH",
 				"isFlying": true,
-				"isMultiple": true,
+				"isMultiple": false,
 				"ap": 2
 			},
 			{
@@ -656,7 +408,7 @@
 				"baseRange": 2,
 				"target": "BOTH",
 				"isFlying": true,
-				"isMultiple": true,
+				"isMultiple": false,
 				"ap": 6
 			}
 	],
