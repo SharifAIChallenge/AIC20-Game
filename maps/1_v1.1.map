@@ -334,9 +334,9 @@
 				"maxHP": 15,
 				"baseAttack": 15,
 				"baseRange": 4,
-				"target": "BOTH",
+				"target": "BOTH"	,
 				"isFlying": false,
-				"isMultiple": false,
+				"isMultiple": true,
 				"ap": 4
 			},
 			{
@@ -396,7 +396,7 @@
 				"baseRange": 4,
 				"target": "BOTH",
 				"isFlying": true,
-				"isMultiple": false,
+				"isMultiple": true,
 				"ap": 2
 			},
 			{
@@ -405,7 +405,7 @@
 				"baseAttack": 8,
 				"baseRange": 2,
 				"target": "GROUND",
-				"isFlying": true,
+				"isFlying": false,
 				"isMultiple": true,
 				"ap": 5
 			},
@@ -416,7 +416,7 @@
 				"baseRange": 2,
 				"target": "BOTH",
 				"isFlying": true,
-				"isMultiple": false,
+				"isMultiple": true,
 				"ap": 6
 			}
 	],
