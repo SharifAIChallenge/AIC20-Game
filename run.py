@@ -5,13 +5,11 @@ import subprocess
 import threading
 import time
 
-
 # initial data 
 clients = []
 logs_number = [1, 3, 2, 4]
 n = len(sys.argv)
 n -= 1
-
 
 # initial clients list with correct order
 if n < 3:
@@ -28,7 +26,6 @@ elif n == 6:
 else:
 	print('too many arguments.')
 	exit()
-	
 
 # create clients' logs path
 base = 'Log'
@@ -36,11 +33,8 @@ if not os.path.exists(base): os.mkdir(base)
 base += '/clients'
 if not os.path.exists(base): os.mkdir(base)
 
-
 # set map
 os.environ['AICMap'] = sys.argv[2]
-
-
 
 # define function to write output to file
 def write_to_file(log_des, output):
@@ -49,7 +43,6 @@ def write_to_file(log_des, output):
 		f.flush()
 
 # functions for compiling and running different clients
-
 def server():
 	subprocess.run(['java', '-jar', sys.argv[1]], check=True)
 
@@ -108,8 +101,6 @@ for i, client in enumerate(clients):
 	else:
 		print('client not supported.')	
 		exit()
-		
-
 
 # running clients
 for i in range(4):
@@ -117,12 +108,6 @@ for i in range(4):
 	threading.Thread(target=client_function[i], args=(clients[i], log_des)).start()
 	time.sleep(0.2)
 
-
-
 # running server
 log_des = os.path.join(base, 'server.log')
 threading.Thread(target=server).start()
-
-
-
-
