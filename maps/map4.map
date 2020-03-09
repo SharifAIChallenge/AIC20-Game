@@ -902,8 +902,8 @@
 		]
 	},
 	"gameConstants": {
-		"maxAP": 16,
-		"maxTurns": 160,
+		"maxAP": 20,
+		"maxTurns": 180,
 		"turnTimeout": 800,
 		"pickTimeout": 5000,
 		"turnsToUpgrade": 23,
@@ -914,98 +914,98 @@
 		"handSize": 5,
 		"apAddition": 2
 	},
-	"baseUnits": [
-		{
-			"typeId": 0,
-			"maxHP": 12,
-			"baseAttack": 15,
-			"baseRange": 4,
-			"target": "BOTH",
-			"isFlying": false,
-			"isMultiple": false,
-			"ap": 4
-		},
-		{
-			"typeId": 1,
-			"maxHP": 25,
-			"baseAttack": 5,
-			"baseRange": 4,
-			"target": "GROUND",
-			"isFlying": false,
-			"isMultiple": true,
-			"ap": 3
-		},
-		{
-			"typeId": 2,
-			"maxHP": 17,
-			"baseAttack": 10,
-			"baseRange": 4,
-			"target": "AIR",
-			"isFlying": false,
-			"isMultiple": true,
-			"ap": 4
-		},
-		{
-			"typeId": 3,
-			"maxHP": 25,
-			"baseAttack": 12,
-			"baseRange": 1,
-			"target": "GROUND",
-			"isFlying": false,
-			"isMultiple": false,
-			"ap": 6
-		},
-		{
-			"typeId": 4,
-			"maxHP": 50,
-			"baseAttack": 10,
-			"baseRange": 1,
-			"target": "GROUND",
-			"isFlying": false,
-			"isMultiple": true,
-			"ap": 8
-		},
-		{
-			"typeId": 5,
-			"maxHP": 30,
-			"baseAttack": 5,
-			"baseRange": 1,
-			"target": "AIR",
-			"isFlying": true,
-			"isMultiple": false,
-			"ap": 3
-		},
-		{
-			"typeId": 6,
-			"maxHP": 15,
-			"baseAttack": 5,
-			"baseRange": 4,
-			"target": "BOTH",
-			"isFlying": true,
-			"isMultiple": false,
-			"ap": 2
-		},
-		{
-			"typeId": 7,
-			"maxHP": 30,
-			"baseAttack": 8,
-			"baseRange": 2,
-			"target": "GROUND",
-			"isFlying": true,
-			"isMultiple": true,
-			"ap": 5
-		},
-		{
-			"typeId": 8,
-			"maxHP": 20,
-			"baseAttack": 15,
-			"baseRange": 2,
-			"target": "BOTH",
-			"isFlying": true,
-			"isMultiple": false,
-			"ap": 6
-		}
-	],
+  "baseUnits": [
+    {
+      "typeId": 0,
+      "maxHP": 16,
+      "baseAttack": 15,
+      "baseRange": 3,
+      "target": "BOTH",
+      "isFlying": false,
+      "isMultiple": false,
+      "ap": 5
+    },
+    {
+      "typeId": 1,
+      "maxHP": 25,
+      "baseAttack": 5,
+      "baseRange": 4,
+      "target": "GROUND",
+      "isFlying": false,
+      "isMultiple": true,
+      "ap": 4
+    },
+    {
+      "typeId": 2,
+      "maxHP": 15,
+      "baseAttack": 10,
+      "baseRange": 3,
+      "target": "AIR",
+      "isFlying": false,
+      "isMultiple": true,
+      "ap": 4
+    },
+    {
+      "typeId": 3,
+      "maxHP": 25,
+      "baseAttack": 15,
+      "baseRange": 1,
+      "target": "GROUND",
+      "isFlying": false,
+      "isMultiple": false,
+      "ap": 5
+    },
+    {
+      "typeId": 4,
+      "maxHP": 55,
+      "baseAttack": 10,
+      "baseRange": 1,
+      "target": "GROUND",
+      "isFlying": false,
+      "isMultiple": true,
+      "ap": 6
+    },
+    {
+      "typeId": 5,
+      "maxHP": 27,
+      "baseAttack": 5,
+      "baseRange": 1,
+      "target": "AIR",
+      "isFlying": true,
+      "isMultiple": false,
+      "ap": 3
+    },
+    {
+      "typeId": 6,
+      "maxHP": 15,
+      "baseAttack": 5,
+      "baseRange": 4,
+      "target": "BOTH",
+      "isFlying": true,
+      "isMultiple": false,
+      "ap": 3
+    },
+    {
+      "typeId": 7,
+      "maxHP": 25,
+      "baseAttack": 10,
+      "baseRange": 2,
+      "target": "GROUND",
+      "isFlying": true,
+      "isMultiple": true,
+      "ap": 5
+    },
+    {
+      "typeId": 8,
+      "maxHP": 20,
+      "baseAttack": 20,
+      "baseRange": 2,
+      "target": "BOTH",
+      "isFlying": true,
+      "isMultiple": false,
+      "ap": 6
+    }
+  ],
 	"spells": [
 		{
 			"type": "HASTE",
